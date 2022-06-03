@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#compile
+#scalac HelloWorld.scala
+
+#run
+scala HelloWorld.scala
