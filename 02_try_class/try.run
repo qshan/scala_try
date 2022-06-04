@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#compile
+#scalac TryClass.scala
+
+#run
+scala TryClass.scala
