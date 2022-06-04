@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#compile
+#scalac TryOpt.scala
+
+#run
+scala TryOpt.scala
