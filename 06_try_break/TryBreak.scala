@@ -16,8 +16,7 @@ object TryBreak
     val tempTimes : Int  = 5;
 
     println ("---------- Try [break] here ----------");
-    //var tempCheckerBreakTryA : Int = 0;
-    var a : Int = 0;
+    var tempCheckerBreakTryA : Int = 0;
     val numListBreakTry = List(1,2,3,4,5,6,7,8,9,10);
 
     val loop = new Breaks;
