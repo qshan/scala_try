@@ -67,7 +67,8 @@ object TryLoop
 
     // output
     for( tempCheckerAForYieldTry <- retValForYieldTry){
-       println( "Get value of tempCheckerAForYieldTry from numListForYieldTry: " + tempCheckerAForYieldTry );
+       println( "Get value of tempCheckerAForYieldTry from numListForYieldTry: "
+              + tempCheckerAForYieldTry );
     }
     println ("--------------------");
 
