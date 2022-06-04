@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#compile
+#scalac TryFunc04.scala
+
+#run
+scala TryFunc04.scala
