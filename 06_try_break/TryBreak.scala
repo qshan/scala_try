@@ -19,8 +19,12 @@ object TryBreak
     var tempCheckerBreakTryA : Int = 0;
     val numListBreakTry : List[Int] = List(1,2,3,4,5,6,7,8,9,10);
 
-    val loop = new Breaks;
-    loop.breakable{
+    //create a Breaks object
+    val loopBreakTry = new Breaks;
+
+    //run for-loop in breakable
+    loopBreakTry.breakable{
+      //for-loop
       for( tempCheckerBreakTryA <- numListBreakTry)
       {
         println( "Get value of tempCheckerBreakTryA from numListBreakTry: "
@@ -29,11 +33,12 @@ object TryBreak
         {
           println( "Found value 4 in numListBreakTry: "
                 + tempCheckerBreakTryA );
-          loop.break;
+          //call break when the condition matched
+          loopBreakTry.break;
         }
       }
     }
-    println( "After the loop.breakable" );
+    println( "After the loopBreakTry.breakable" );
 
     printf ("----------End of %s----------\n" ,getClass.getName());
     println ("--------------------");
