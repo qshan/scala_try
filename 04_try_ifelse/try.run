@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#compile
+#scalac TryIfElse.scala
+
+#run
+scala TryIfElse.scala
