@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#compile
+#scalac TryLoop.scala
+
+#run
+scala TryLoop.scala
