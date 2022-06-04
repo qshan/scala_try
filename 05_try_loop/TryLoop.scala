@@ -46,7 +46,7 @@ object TryLoop
     }
     println ("--------------------");
 
-    println ("---------- Try [for condition] here ----------");
+    println ("---------- Try [for-condition] here ----------");
     var tempCheckerA : Int  = 0;
     val numListTry = List(1,2,3,4,5,6,7,8,9,10);
     for( tempCheckerA <- numListTry
@@ -55,13 +55,13 @@ object TryLoop
     }
     println ("--------------------");
 
-    println ("---------- Try [for yield] here ----------");
+    println ("---------- Try [for-yield] here ----------");
     var tempCheckerAForYieldTry : Int  = 0;
     //var a = 0;
     val numListForYieldTry = List(1,2,3,4,5,6,7,8,9,10);
 
     //get the data
-    var retValForYieldTry = for{ a <- numListForYieldTry
+    var retValForYieldTry = for{ tempCheckerAForYieldTry <- numListForYieldTry
                       if tempCheckerAForYieldTry != 3; if tempCheckerAForYieldTry < 8
                     }yield tempCheckerAForYieldTry
 
