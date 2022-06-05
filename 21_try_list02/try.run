@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#compile
+#scalac TryList02.scala
+
+#run
+scala TryList02.scala
