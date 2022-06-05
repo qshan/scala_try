@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#compile
+#scalac TryArray03.scala
+
+#run
+scala TryArray03.scala
