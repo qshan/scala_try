@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#compile
+#scalac TryArray02.scala
+
+#run
+scala TryArray02.scala
