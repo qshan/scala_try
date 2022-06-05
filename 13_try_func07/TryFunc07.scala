@@ -20,6 +20,7 @@ object TryFunc07
     println( "multiplier() value =    " +  multiplier(tempData01) );
     println( "multiplier01() value =  " +  multiplier01(tempData02) );
     println ("--------------------");
+    println ("---------- Try [Closures] here ----------");
     factor  = 5;
     println( "Current factor is   = " +  factor);
     println( "multiplier() value =    " +  multiplier(tempData01) );
@@ -31,7 +32,7 @@ object TryFunc07
   }
 
   //Anonymous Functions example
-  var factor = 3;
+  var factor : Int = 3;
   val multiplier = (i:Int) => (i * factor);
   val multiplier01 = (i:Int) => ({println( "Get i " +  i ); i * factor});
 
