@@ -31,6 +31,13 @@ object TryString
     println( "tempStrValue  is " + tempStrValue );
     println( "length  is " + tempStrValue.length() );
 
+    var tempStrValue1  = printf("Try String operation"
+                          + "tempStrValue is %s and tempInt02 is %d"
+                          , tempStr ,tempInt02);
+    println (tempStrValue1);                      
+    //TODO//why ??
+    println( "tempStrValue1  is " + tempStrValue1 );
+
     println ("--------------------");
 
     println ("---------- Try [StringBuilder] here ----------");
