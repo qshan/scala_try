@@ -23,10 +23,13 @@ object TryString
 
     println( "greeting      is " + greeting );
     println( "tempStrValue  is " + tempStrValue );
+    println( "length  is " + tempStrValue.length() );
     tempStrValue  = tempStr;
     println( "tempStrValue  is " + tempStrValue );
+    println( "length  is " + tempStrValue.length() );
     tempStrValue  += " Part added";
     println( "tempStrValue  is " + tempStrValue );
+    println( "length  is " + tempStrValue.length() );
 
     println ("--------------------");
 
@@ -34,10 +37,14 @@ object TryString
     //pay attention to val here
     val bufTryStringBuilder = new StringBuilder;
     println( "bufTryStringBuilder is : " + bufTryStringBuilder.toString );
+    println( "length  is " + bufTryStringBuilder.length() );
     bufTryStringBuilder += 'a'
     println( "bufTryStringBuilder is : " + bufTryStringBuilder.toString );
+    println( "length  is " + bufTryStringBuilder.length() );
     bufTryStringBuilder ++= "bcdef"
     println( "bufTryStringBuilder is : " + bufTryStringBuilder.toString );
+    println( "bufTryStringBuilder is : " + bufTryStringBuilder );
+    println( "length  is " + bufTryStringBuilder.length() );
     println ("--------------------");
 
     println ("");
