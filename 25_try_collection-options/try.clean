@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#clean
+#source ./try.clean
+echo "----------try clean env----------"
+\rm -rfv *.class *.tasty
+#\rm -rfv FileOperationTest.txt
+
+##compile
+#echo "----------try compile file----------"
+##scalac TryCollectionOptions.scala
+#
+##run
+#echo "----------try run file----------"
+#scala TryCollectionOptions.scala
