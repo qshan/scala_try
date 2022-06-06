@@ -31,7 +31,8 @@ object TryClass03
 
     println ("---------- Try [Implicit Classes] here ----------");
 
-    4 times println("hello")
+    //4 timesImplicitClassTry println("hello");
+    tempInt02 timesImplicitClassTry println("hello");
 
     println ("--------------------");
 
