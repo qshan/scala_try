@@ -34,10 +34,10 @@ object TryList02
     //println ("--------------------");
 
     println ("---------- Try [Collections - List - List.reverse] here ----------");
-    val site = "Runoob" :: ("Google" :: ("Baidu" :: Nil))
-    println( "before site.reverse : " + site )
+    val site = "Runoob" :: ("Google" :: ("Baidu" :: Nil));
+    println( "before site.reverse : " + site );
 
-    println( "after  site.reverse : " + site.reverse )
+    println( "after  site.reverse : " + site.reverse );
     println ("--------------------");
   }
 
