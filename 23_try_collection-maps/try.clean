@@ -4,7 +4,7 @@
 #source ./try.clean
 echo "----------try clean env----------"
 \rm -rfv *.class *.tasty
-\rm -rfv FileOperationTest.txt
+#\rm -rfv FileOperationTest.txt
 
 ##compile
 #echo "----------try compile file----------"
