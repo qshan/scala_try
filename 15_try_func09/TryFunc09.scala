@@ -20,7 +20,7 @@ object TryFunc09
 
     val str1:String = "Hello, ";
     val str2:String = "Scala!";
-      
+
     println( "str1 + str2 = " +  strcat(str1)(str2) );
     println( "str1 + str2 = " +  strcat01(str1)(str2) );
 

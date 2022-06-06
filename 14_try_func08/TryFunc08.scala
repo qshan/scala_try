@@ -23,10 +23,10 @@ object TryFunc08
 
     logWithDateBound("message1" );
     Thread.sleep(10000);
-      
+
     logWithDateBound("message2" );
     Thread.sleep(10000);
-      
+
     logWithDateBound("message3" );
 
     println ("--------------------");

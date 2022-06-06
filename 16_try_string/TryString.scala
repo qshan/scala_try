@@ -34,7 +34,7 @@ object TryString
     var tempStrValue1  = printf("Try String operation"
                           + "tempStrValue is %s and tempInt02 is %d"
                           , tempStr ,tempInt02);
-    println (tempStrValue1);                      
+    println (tempStrValue1);
     //TODO//why ??
     println( "tempStrValue1  is " + tempStrValue1 );
 

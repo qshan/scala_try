@@ -33,7 +33,7 @@ object TryList01
         List(0, 0, 1)
       )
     println ("--------------------");
-    
+
     // List of Strings
     val fruit01 = "apples" :: ("oranges" :: ("pears" :: Nil))
     // List of Integers
@@ -68,7 +68,7 @@ object TryList01
     var fruit05 = fruit03 ::: fruit04;
     println( "fruit03 ::: fruit04 : " + fruit05 );
     println ("--------------------");
-    
+
     // use two lists with Set.:::() method
     println ("Try use the .:::() method to add the list");
     fruit05 = fruit03.:::(fruit04);

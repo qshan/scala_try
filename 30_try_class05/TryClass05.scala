@@ -55,7 +55,7 @@ object TryClass05
     else
       null;
   }
-  
+
   def getMarker(color:String) =
   {
     if(markers.contains(color))

@@ -26,10 +26,10 @@ object TryFunc03
 
   //Recursion Functions
   def factorialRecurFuncTry(n: BigInt): BigInt =
-  {  
+  {
     if (n <= 1)
       1;
-    else    
+    else
       n * factorialRecurFuncTry(n - 1);
   }
 

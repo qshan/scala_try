@@ -49,7 +49,7 @@ object TryCollectionMap
     println ("---------- Try [" + tempCaseName + "] here ----------");
     val colors05 = Map("red" -> "#FF0000", "azure" -> "#F0FFFF","peru" -> "#CD853F");
 
-    colors05.keys.foreach{ i =>  
+    colors05.keys.foreach{ i =>
          print( "Key = " + i );
          println(" Value = " + colors05(i) );}
     println ("--------------------");
@@ -66,7 +66,7 @@ object TryCollectionMap
     {
       println("Red key does not exist");
     }
-    
+
     if( colors06.contains( "maroon" ))
     {
       println("Maroon key exists with value :"  + colors06("maroon"));

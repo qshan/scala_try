@@ -20,7 +20,7 @@ object TryArray02
 
     println ("---------- Try [Multi-Dimensional Array] here ----------");
     var myMatrix = ofDim[Int](3,3)
-    
+
     // build a matrix
     for (i <- 0 to 2)
     {
@@ -29,7 +29,7 @@ object TryArray02
         myMatrix(i)(j) = j;
       }
     }
-    
+
     // Print two dimensional array
     println ("Go through the element of Array");
     for (i <- 0 to 2)
@@ -48,7 +48,7 @@ object TryArray02
 
     println ("Try to concatenate the Arrays");
     var myList3 =  concat( myList1, myList2)
-    
+
     // Print all the elements of array merged
     println ("Go through the element of Array merged");
     for ( x <- myList3 ) {
